@@ -92,10 +92,7 @@ identifiertable={}
 numerictable={}
 new={}
 k=0
-ok=0
 for line in file:
-    if ok:
-        break
     x=line.split(" ")
     for elem in x:
         list = ""
