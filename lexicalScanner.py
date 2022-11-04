@@ -86,6 +86,7 @@ file = open("test.txt", "r")
 for line in file:
     x = line.split(" ")
     parse(x) 
+    
 file = open("test.txt", "r")
 tokentable={"identifier" : 0, "number" : 1, "int" : 2, "}" : 3, "(" : 4, ")" : 5, "{" : 6, ";" : 7, "=": 8, "+": 9, "print" : 10}
 identifiertable={}
